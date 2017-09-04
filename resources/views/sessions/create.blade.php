@@ -25,7 +25,7 @@
                          <div class="checkbox">
                               <label><input type="checkbox" name="remember"> 记住我</label>
                          </div>
-                         <button type="submit" class="btn btn-primary">登录</button>
+                         <button type="submit" class="btn btn-primary">登录</button><a href="{{ route('password.request') }}">忘记密码</a>
                     </form>
 
                     <hr>
