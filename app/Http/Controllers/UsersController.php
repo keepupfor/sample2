@@ -87,7 +87,7 @@ class UsersController extends Controller
         return redirect()->route('users.index');
     }
 
-    public function sendConfirmEmailTo($user)
+    public function sendEmailConfirmationTo($user)
     {
         $view = 'emails.confirm';
         $data = compact('user');
